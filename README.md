@@ -1,0 +1,2 @@
+# palautusrepositorio
+Palautusrepositorio ohjelmistotuotantokurssia varten
