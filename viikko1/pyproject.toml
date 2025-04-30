@@ -1,0 +1,20 @@
+[project]
+name = "viikko1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "oskarilamsa",email = "oskarilm50@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pylint (>=3.3.6,<4.0.0)",
+    "env (>=0.1.0,<0.2.0)",
+    "shell (>=1.0.1,<2.0.0)",
+    "poetry-plugin-shell (>=1.0.1,<2.0.0) ; python_version == \"3.13\""
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
